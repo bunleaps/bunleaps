@@ -4,6 +4,9 @@ import Image from "next/image";
 import Hero from "@/components/sections/Hero";
 import FeaturedProject from "@/components/sections/featuredProject";
 import SkillsSet from "@/components/sections/SkillsSet";
+import YoutubeFeatured from "@/components/sections/youtube";
+
+import Contact from "@/components/pages/contact";
 
 import { FiArrowRight } from "react-icons/fi";
 
@@ -16,6 +19,8 @@ export default function Home() {
       <Hero />
       <SkillsSet />
       <FeaturedProject />
+      {/* <YoutubeFeatured /> */}
+      <Contact />
     </div>
   );
 }

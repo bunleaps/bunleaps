@@ -17,10 +17,10 @@ const projects = [
   },
 ];
 
-export default function FeaturedProject() {
+export default function YoutubeFeatured() {
   return (
-    <div className="mt-10" id="projects">
-      <h1 className="text-3xl font-semibold">Featured Projects</h1>
+    <div className="mt-10 mb-10">
+      <h1 className="text-3xl font-semibold">YouTube</h1>
       <div className="flex flex-wrap mt-3 gap-2">
         {projects.map((project) => (
           <div
