@@ -8,7 +8,7 @@ import Contact from "@/components/pages/contact";
 
 export default function Home() {
   return (
-    <div>
+    <div className="scroll-smooth">
       {/* <p className="mb-5 lg:mb-0 lg:hidden w-full rounded p-3 bg-red-500 ring-2 ring-red-600">
         This website is not optimized for mobile devices/viewpoints yet.
       </p> */}

@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       </Head>
       <Header />
       <div className="w-full flex justify-center mt-5">
-        <div className="w-4/5 lg:w-2/5">{children}</div>
+        <div className="w-4/5 lg:w-2/5 scroll-smooth">{children}</div>
       </div>
       {/* <Footer /> */}
     </div>
