@@ -15,17 +15,44 @@ const projects = [
     description: "Quiz interface for KlemCambodia",
     stack: "HTML, CSS, & JavaScript",
   },
+  {
+    name: "employee_card",
+    links: "https://github.com/bunleaps/python-imageplaceholder",
+    description:
+      "Employee Card Image with Text Placeholder generated with Data using Python",
+    stack: "Python",
+  },
+  {
+    name: "Random Hero Generator v2",
+    links: "https://github.com/bunleaps/random-hero-v2",
+    description:
+      "My second version of Random Hero Generator built using an API with a nicer interface and a more readable code.",
+    stack: "HTML, CSS, JavaScript & JQuery",
+  },
+  {
+    name: "Covid 19 Tracker: Cambodia",
+    links: "https://github.com/bunleaps/covid-19-kh",
+    description: "A PWA Covid 19 Tracker that built using an API and JQuery",
+    stack: "HTML, CSS, JavaScript & JQuery",
+  },
+  {
+    name: "Intern Application Assignment",
+    links: "https://github.com/bunleaps/intern-assignment",
+    description:
+      "This is a website I have built using Next.js for an assignment from my internship company",
+    stack: "Next.js & Styled Components",
+  },
 ];
 
 export default function FeaturedProject() {
   return (
     <div className="mt-10" id="projects">
       <h1 className="text-3xl font-semibold">Featured Projects</h1>
-      <div className="flex flex-wrap mt-3 gap-2">
+      <div className="flex flex-wrap mt-3 gap-3">
         {projects.map((project) => (
           <div
             key={project.name}
-            className="w-full lg:w-5/12 bg-zinc-800 hover:bg-zinc-800/60 rounded cursor-pointer"
+            className="w-full lg:w-[49%] bg-zinc-800 hover:bg-zinc-800/60 rounded cursor-pointer"
           >
             <Link href={project.links} legacyBehavior>
               <a target="_blank">
@@ -47,10 +74,15 @@ export default function FeaturedProject() {
       </div>
       <p className="mt-3">
         <Link
-          href="/projects"
-          className="flex items-center text-blue-400 hover:text-blue-300"
+          href="https://github.com/bunleaps?tab=repositories"
+          legacyBehavior
         >
-          ✨ See More Projects <BsArrowRight className="ml-2" />
+          <a
+            target="_blank"
+            className="flex items-center text-blue-400 hover:text-blue-300"
+          >
+            ✨ See More Projects <BsArrowRight className="ml-2" />
+          </a>
         </Link>
       </p>
     </div>
