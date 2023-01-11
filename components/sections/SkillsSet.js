@@ -20,7 +20,7 @@ const skills = [
 
 export default function SkillsSet() {
   return (
-    <div className="mt-10">
+    <div className="mt-16">
       <h1 className="text-3xl font-semibold">My Skills</h1>
       <div className="flex flex-wrap mt-3">
         {skills.map((skill) => (

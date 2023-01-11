@@ -4,7 +4,7 @@ import MyButton from "@/components/Button";
 
 export default function Contact() {
   return (
-    <div id="contact" className="mb-10 mt-10">
+    <div id="contact" className="mb-10 mt-16">
       <h1 className="text-4xl font-semibold mt-4">Get in Touch</h1>
       <form>
         <label className="text-lg mt-3 block">Name</label>
