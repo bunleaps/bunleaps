@@ -46,7 +46,7 @@ const projects = [
 
 export default function FeaturedProject() {
   return (
-    <div className="mt-10" id="projects">
+    <div className="mt-10 scroll-mt-24" id="projects">
       <h1 className="text-3xl font-semibold">Featured Projects</h1>
       <div className="flex flex-wrap mt-3 gap-3">
         {projects.map((project) => (
