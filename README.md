@@ -9,5 +9,5 @@ Join me as I share my experiences as a student at BINUS University and explore t
 So, let's dive into the exciting world of computer science together!
 
 ### Contact
-Email (Work): bunleap.sorn@gmail.com \n
+Email (Work): bunleap.sorn@gmail.com\n
 Email (School): bunleap.sorn@binus.ac.id
