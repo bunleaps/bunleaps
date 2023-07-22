@@ -11,5 +11,5 @@ So, let's dive into the exciting world of computer science together!
 ### Contact
 | Contact | Email |
 | --- | --- |
-| Work | bunleap.sorn@gmail.com |
+| Work | hi.bunleapsorn@gmail.com |
 | School | bunleap.sorn@binus.ac.id |
