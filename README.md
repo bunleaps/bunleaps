@@ -1,5 +1,5 @@
 # Hello 👋
-Hi, my name is **Bunleap Sorn**. I build things for the web.
+![banner](https://i.imgur.com/390Hhvt.png)
 
 ## About Me
 Hey there, I'm Bunleap and welcome to my GItHub! I just graduated high school and now I'm starting a new journey at BINUS University in Indonesia. I'm passionate about all things computer-related, from coding to design to engineering.
